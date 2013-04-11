@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C05F6C171735DD002C34CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C05F6B171735DD002C34CD /* UIKit.framework */; };
+		72C05F6E171735DD002C34CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C05F6D171735DD002C34CD /* Foundation.framework */; };
+		72C05F70171735DD002C34CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C05F6F171735DD002C34CD /* CoreGraphics.framework */; };
+		72C05F76171735DD002C34CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F74171735DD002C34CD /* InfoPlist.strings */; };
+		72C05F78171735DD002C34CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C05F77171735DD002C34CD /* main.m */; };
+		72C05F7C171735DD002C34CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C05F7B171735DD002C34CD /* AppDelegate.m */; };
+		72C05F7E171735DD002C34CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F7D171735DD002C34CD /* Default.png */; };
+		72C05F80171735DD002C34CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F7F171735DD002C34CD /* Default@2x.png */; };
+		72C05F82171735DD002C34CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F81171735DD002C34CD /* Default-568h@2x.png */; };
+		72C05F85171735DD002C34CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F83171735DD002C34CD /* MainStoryboard.storyboard */; };
+		72C05F88171735DD002C34CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C05F87171735DD002C34CD /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72C05F67171735DD002C34CD /* tarea01OroSe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea01OroSe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C05F6B171735DD002C34CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72C05F6D171735DD002C34CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72C05F6F171735DD002C34CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72C05F73171735DD002C34CD /* tarea01OroSe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tarea01OroSe-Info.plist"; sourceTree = "<group>"; };
+		72C05F75171735DD002C34CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72C05F77171735DD002C34CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72C05F79171735DD002C34CD /* tarea01OroSe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tarea01OroSe-Prefix.pch"; sourceTree = "<group>"; };
+		72C05F7A171735DD002C34CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72C05F7B171735DD002C34CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72C05F7D171735DD002C34CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		72C05F7F171735DD002C34CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		72C05F81171735DD002C34CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		72C05F84171735DD002C34CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		72C05F86171735DD002C34CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72C05F87171735DD002C34CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C05F64171735DD002C34CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C05F6C171735DD002C34CD /* UIKit.framework in Frameworks */,
+				72C05F6E171735DD002C34CD /* Foundation.framework in Frameworks */,
+				72C05F70171735DD002C34CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C05F5C171735DD002C34CD = {
+			isa = PBXGroup;
+			children = (
+				72C05F71171735DD002C34CD /* tarea01OroSe */,
+				72C05F6A171735DD002C34CD /* Frameworks */,
+				72C05F68171735DD002C34CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C05F68171735DD002C34CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F67171735DD002C34CD /* tarea01OroSe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C05F6A171735DD002C34CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F6B171735DD002C34CD /* UIKit.framework */,
+				72C05F6D171735DD002C34CD /* Foundation.framework */,
+				72C05F6F171735DD002C34CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C05F71171735DD002C34CD /* tarea01OroSe */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F7A171735DD002C34CD /* AppDelegate.h */,
+				72C05F7B171735DD002C34CD /* AppDelegate.m */,
+				72C05F83171735DD002C34CD /* MainStoryboard.storyboard */,
+				72C05F86171735DD002C34CD /* ViewController.h */,
+				72C05F87171735DD002C34CD /* ViewController.m */,
+				72C05F72171735DD002C34CD /* Supporting Files */,
+			);
+			path = tarea01OroSe;
+			sourceTree = "<group>";
+		};
+		72C05F72171735DD002C34CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F73171735DD002C34CD /* tarea01OroSe-Info.plist */,
+				72C05F74171735DD002C34CD /* InfoPlist.strings */,
+				72C05F77171735DD002C34CD /* main.m */,
+				72C05F79171735DD002C34CD /* tarea01OroSe-Prefix.pch */,
+				72C05F7D171735DD002C34CD /* Default.png */,
+				72C05F7F171735DD002C34CD /* Default@2x.png */,
+				72C05F81171735DD002C34CD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C05F66171735DD002C34CD /* tarea01OroSe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C05F8B171735DD002C34CD /* Build configuration list for PBXNativeTarget "tarea01OroSe" */;
+			buildPhases = (
+				72C05F63171735DD002C34CD /* Sources */,
+				72C05F64171735DD002C34CD /* Frameworks */,
+				72C05F65171735DD002C34CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tarea01OroSe;
+			productName = tarea01OroSe;
+			productReference = 72C05F67171735DD002C34CD /* tarea01OroSe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C05F5E171735DD002C34CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SDA;
+			};
+			buildConfigurationList = 72C05F61171735DD002C34CD /* Build configuration list for PBXProject "tarea01OroSe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72C05F5C171735DD002C34CD;
+			productRefGroup = 72C05F68171735DD002C34CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C05F66171735DD002C34CD /* tarea01OroSe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C05F65171735DD002C34CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C05F76171735DD002C34CD /* InfoPlist.strings in Resources */,
+				72C05F7E171735DD002C34CD /* Default.png in Resources */,
+				72C05F80171735DD002C34CD /* Default@2x.png in Resources */,
+				72C05F82171735DD002C34CD /* Default-568h@2x.png in Resources */,
+				72C05F85171735DD002C34CD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C05F63171735DD002C34CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C05F78171735DD002C34CD /* main.m in Sources */,
+				72C05F7C171735DD002C34CD /* AppDelegate.m in Sources */,
+				72C05F88171735DD002C34CD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72C05F74171735DD002C34CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C05F75171735DD002C34CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72C05F83171735DD002C34CD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C05F84171735DD002C34CD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C05F89171735DD002C34CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72C05F8A171735DD002C34CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C05F8C171735DD002C34CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tarea01OroSe/tarea01OroSe-Prefix.pch";
+				INFOPLIST_FILE = "tarea01OroSe/tarea01OroSe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72C05F8D171735DD002C34CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tarea01OroSe/tarea01OroSe-Prefix.pch";
+				INFOPLIST_FILE = "tarea01OroSe/tarea01OroSe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C05F61171735DD002C34CD /* Build configuration list for PBXProject "tarea01OroSe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C05F89171735DD002C34CD /* Debug */,
+				72C05F8A171735DD002C34CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C05F8B171735DD002C34CD /* Build configuration list for PBXNativeTarget "tarea01OroSe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C05F8C171735DD002C34CD /* Debug */,
+				72C05F8D171735DD002C34CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72C05F5E171735DD002C34CD /* Project object */;
+}
