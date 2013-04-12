@@ -18,6 +18,13 @@
 		72C05F82171735DD002C34CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F81171735DD002C34CD /* Default-568h@2x.png */; };
 		72C05F85171735DD002C34CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C05F83171735DD002C34CD /* MainStoryboard.storyboard */; };
 		72C05F88171735DD002C34CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C05F87171735DD002C34CD /* ViewController.m */; };
+		72C05F9317174779002C34CD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C05F9217174779002C34CD /* HomeViewController.m */; };
+		72C05FB3171766D6002C34CD /* chillout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FB2171766D6002C34CD /* chillout.jpg */; };
+		72C05FB5171766E5002C34CD /* electronica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FB4171766E5002C34CD /* electronica.jpg */; };
+		72C05FB7171766EF002C34CD /* Jazz in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FB6171766EF002C34CD /* Jazz */; };
+		72C05FB9171766FA002C34CD /* Metal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FB8171766FA002C34CD /* Metal.jpg */; };
+		72C05FBB17176711002C34CD /* musica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FBA17176711002C34CD /* musica.jpg */; };
+		72C05FBD1717671B002C34CD /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C05FBC1717671B002C34CD /* Rock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,14 @@
 		72C05F84171735DD002C34CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		72C05F86171735DD002C34CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		72C05F87171735DD002C34CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72C05F9117174779002C34CD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		72C05F9217174779002C34CD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		72C05FB2171766D6002C34CD /* chillout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chillout.jpg; path = Images/chillout.jpg; sourceTree = SOURCE_ROOT; };
+		72C05FB4171766E5002C34CD /* electronica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = electronica.jpg; path = Images/electronica.jpg; sourceTree = SOURCE_ROOT; };
+		72C05FB6171766EF002C34CD /* Jazz */ = {isa = PBXFileReference; lastKnownFileType = file; name = Jazz; path = Images/Jazz; sourceTree = SOURCE_ROOT; };
+		72C05FB8171766FA002C34CD /* Metal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Metal.jpg; path = Images/Metal.jpg; sourceTree = SOURCE_ROOT; };
+		72C05FBA17176711002C34CD /* musica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = musica.jpg; path = Images/musica.jpg; sourceTree = SOURCE_ROOT; };
+		72C05FBC1717671B002C34CD /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rock.png; path = Images/Rock.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +98,11 @@
 		72C05F71171735DD002C34CD /* tarea01OroSe */ = {
 			isa = PBXGroup;
 			children = (
+				72C05FB017176694002C34CD /* Images */,
+				72C05F8E171746B4002C34CD /* Controllers */,
 				72C05F7A171735DD002C34CD /* AppDelegate.h */,
 				72C05F7B171735DD002C34CD /* AppDelegate.m */,
 				72C05F83171735DD002C34CD /* MainStoryboard.storyboard */,
-				72C05F86171735DD002C34CD /* ViewController.h */,
-				72C05F87171735DD002C34CD /* ViewController.m */,
 				72C05F72171735DD002C34CD /* Supporting Files */,
 			);
 			path = tarea01OroSe;
@@ -105,6 +120,46 @@
 				72C05F81171735DD002C34CD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72C05F8E171746B4002C34CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F90171746DA002C34CD /* HomeView */,
+				72C05F8F171746CE002C34CD /* LoginView */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		72C05F8F171746CE002C34CD /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F87171735DD002C34CD /* ViewController.m */,
+				72C05F86171735DD002C34CD /* ViewController.h */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		72C05F90171746DA002C34CD /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				72C05F9117174779002C34CD /* HomeViewController.h */,
+				72C05F9217174779002C34CD /* HomeViewController.m */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		72C05FB017176694002C34CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				72C05FBC1717671B002C34CD /* Rock.png */,
+				72C05FBA17176711002C34CD /* musica.jpg */,
+				72C05FB8171766FA002C34CD /* Metal.jpg */,
+				72C05FB6171766EF002C34CD /* Jazz */,
+				72C05FB4171766E5002C34CD /* electronica.jpg */,
+				72C05FB2171766D6002C34CD /* chillout.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +218,12 @@
 				72C05F80171735DD002C34CD /* Default@2x.png in Resources */,
 				72C05F82171735DD002C34CD /* Default-568h@2x.png in Resources */,
 				72C05F85171735DD002C34CD /* MainStoryboard.storyboard in Resources */,
+				72C05FB3171766D6002C34CD /* chillout.jpg in Resources */,
+				72C05FB5171766E5002C34CD /* electronica.jpg in Resources */,
+				72C05FB7171766EF002C34CD /* Jazz in Resources */,
+				72C05FB9171766FA002C34CD /* Metal.jpg in Resources */,
+				72C05FBB17176711002C34CD /* musica.jpg in Resources */,
+				72C05FBD1717671B002C34CD /* Rock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +237,7 @@
 				72C05F78171735DD002C34CD /* main.m in Sources */,
 				72C05F7C171735DD002C34CD /* AppDelegate.m in Sources */,
 				72C05F88171735DD002C34CD /* ViewController.m in Sources */,
+				72C05F9317174779002C34CD /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +354,7 @@
 				72C05F8D171735DD002C34CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
